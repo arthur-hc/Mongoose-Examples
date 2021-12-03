@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 module.exports = mongoose.model('Cards', {
   name: {
     type: String,
